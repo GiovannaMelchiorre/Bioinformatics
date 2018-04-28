@@ -1,0 +1,483 @@
+
+{% extends "base.html" %}  
+{% block content %}
+{% block title %}{% endblock %}
+
+
+
+  {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/jquery-ui.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/jquery-ui.theme.min.css' %}" /> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  
+      
+    <script src="{% static 'js/jquery-3.2.1.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/cytoscape.js' %}"></script>
+    <script src="{% static 'js/jquery-ui.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+    <script src="{% static 'js/save.js' %}"></script>
+    <script src="{% static 'js/queries.js' %}"></script>
+    <script src="{% static 'js/remove.js' %}"></script>
+    <script src="{% static 'js/info_elementi.js' %}"></script>
+    <script src="{% static 'js/checkbox_rel_type.js' %}"></script>    
+    <script src="{% static 'js/jquery.cookie.js' %}"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise,fetch"></script>
+
+
+<script type="text/javascript">
+  var cytoscape_graph = {{ graph_elements}};
+</script>
+
+
+
+    <nav class="navbar navbar-inverse sidebar" role="navigation">
+      <div class="container-fluid">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse menu" id="bs-sidebar-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li >
+            <h4><a href="#" id="salva_button_png">Esporta PNG<span class="pull-right hidden-xs showopacity glyphicon glyphicon-download-alt"></span></a></h4>
+          </li>
+          <li >
+            <h4><a href="#" id="salva_button_jpg">Esporta JPG<span class="pull-right hidden-xs showopacity glyphicon glyphicon-download-alt"></span></a></h4>
+          </li>
+          <li>
+            <div class="select_style">          
+              <h4>Layout:<span class="pull-right hidden-xs showopacity glyphicon glyphicon-star"></span></h4>
+              <div class="select_div">
+                <select class="form-control" id="selector" onclick="create_graph()">
+                  <option selected="selected">circle</option>
+                  <option>concentric</option>
+                  <option>breadthfirst</option>
+                  <option>grid</option>
+                </select>
+              </div>
+            </div>
+          </li>
+          <li>
+            <h4>Query strutturata <span class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></h4>
+            <div class="filtraggio">
+              <h5>Filtra relationships per: </h5>
+                <div class="filtra_segno contorno_esterno">
+                  <div class="radio">
+                    <label><input id="score_radio_id" type="radio" name="score_radio" value="" >Score</label>
+                  </div>
+                  <div class="contorno segno" id="score_div">               
+                    <h5>Segno di confronto: </h5>
+                      <div class="radio">
+                        <label><input type="radio" id="magg_ug" name="segno" >>=</label>
+                      </div>
+                      <div class="radio">
+                        <label><input type="radio" id="ug" name="segno">=</label>
+                      </div>
+                      <div class="radio">
+                        <label><input type="radio" id="min_ug" name="segno"><=</label>
+                      </div>
+                          
+                      <hr class="linea">
+                     
+                      <div class="form-group">
+                        <label for="score_value">Valore di confronto:</label>
+                        <input type="text" id="score_value" value="0.0008">
+                      </div> 
+
+                    </div>
+                  </div> 
+                  <button id="button_query_1" class="btn btn-default button" type="button" >Filtra</button> 
+                 
+                </div>
+              
+            </li>
+            
+
+            <li >
+              <h4>Query manuale <span id="my_span" class="pull-right hidden-xs showopacity glyphicon glyphicon-info-sign myspan apri"></span>
+              <span class="pull-right hidden-xs showopacity glyphicon glyphicon-edit"></span>   
+                
+              </h4>
+              <div class="form-group contorno_esterno">
+                <label for="query_string">Query:</label>
+                <input type="text" id="query_string">
+              </div>
+              <button id="button_query_2" class="btn btn-default button" type="button" >Filtra</button> 
+              
+            </li>
+                        
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="main">
+
+    
+<!-- regole per query manuali -->
+      <div class="overlay" id="overlay" style="display:none;"></div>
+      <div id="box" class="box">
+        <h1 class="titolo_box">Query</h1>
+                <p class="testo-box">Regole per l'inserimento di query aperte:</p>
+                        <p class="testo-box">Per inserire le query manualmente mantenere la seguente struttura di esempio: node[name="PCNA"] oppure node[score>=0.004].</p>
+                        <hr />
+                <p class="chiudi">X</p>
+        </div>  
+      
+       
+         <div class="checkbox_type" id="checkbox_type">
+          <div class="testo_check ">
+            <h4>Relationship types: </h4>
+          </div>          
+          <div class="contorno_check">
+            {% for k in type_relation %}
+            
+                <div class="checkbox-inline">
+                  <label><input type="checkbox" value="{{k}}" id="type_{{k}}"  onclick="if(this.checked){func_check(this)}else{func_uncheck(this)}">{{k}}</label>
+                </div>
+          
+            {% endfor %}
+          </div>
+        </div>     
+
+
+
+      <!-- core di cytoscape js-->
+      <div class="grafo">
+        <div id="cy" >
+      </div>
+
+      <!-- aggiungi e rimuovi nodo -->
+      <div class="manage_graph">
+        <ul>
+          <!--<il>
+            <a id="button_add_node" class=" button button_manage" type="button" ><span class="pull-right hidden-l showopacity glyphicon glyphicon-plus-sign "></span></a>
+          </il> -->
+          <il>
+            <a id="button_remove_node" class="button button_manage " type="button" ><span class="pull-right hidden-l showopacity glyphicon glyphicon-remove-sign "></span></a>
+          </il>          
+        </ul> 
+      </div>
+<!--
+      <div class="aggiungi_nodo" id="aggiungi_nodo_1" style="display:none;">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width:33%">
+            33%
+          </div>
+        </div>
+        <div id="box_3" class="contorno_esterno">
+          <h4 class="titolo_box">Proprietà nodo:</h4>
+          <div class="form-group">
+            <label for="node_name">Name:</label>
+            <input type="text" id="node_name" placeholder="ASD" value="ASD">
+            <label for="node_id">Id:</label>
+            <input type="text" id="node_id" placeholder="9876" value="9876">
+            <label for="node_score">Score:</label>
+            <input type="text" id="node_score" placeholder="0.0089" value="0.005">
+          </div>
+          <p class="chiudi_insert">x</p>          
+        </div>  
+        <button class="btn btn-default button" id="avanti_button">Avanti</button>
+      </div>
+
+      <div class="aggiungi_nodo" id="aggiungi_nodo_2" style="display:none;">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" style="width:66%">
+            66%
+          </div>
+        </div>
+        <div id="box_4" class="contorno_esterno">
+          <h4 class="titolo_box">Posizione nodo:</h4>
+          <p> Inserisci le coordinate del nodo:</p>
+            <div class="form-group">
+              <label for="node_x">X:</label>
+              <input type="text" id="node_x" placeholder="100.00" value="100.00"/>
+
+              <label for="node_y">Y:</label>
+              <input type="text" id="node_y" placeholder="-100.00" value="-100.00">
+
+            </div>
+          <p class="chiudi_insert">x</p>          
+        </div>  <!--fine box-->
+  <!--      <button class="btn btn-default button" id="avanti_button_2">Avanti</button>
+      </div>
+      
+      <div class="aggiungi_nodo" id="aggiungi_nodo_3" style="display:none;">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style="width:99%">
+            99%
+          </div>
+        </div>
+        <div id="box_5" class="contorno_esterno">
+          <h4 class="titolo_box">Archi del nodo: <span id="my_span_2" class="pull-right hidden-xs showopacity glyphicon glyphicon-info-sign myspan apri"></span></h4>
+          <p> Inserisci i nomi dei nodi vicini:</p>
+          <textarea name="testo" rows="5" cols="35" id="node_vicini" >PCNA;e700;0.02/APEX2;e701;0.5/FEN1;e702;1!
+          </textarea>
+          <p class="chiudi_insert">x</p>          
+        </div>  <!--fine box-->
+ <!--       <button class="btn btn-default button" id="end_button">Fine</button>
+      </div>
+
+      <div class="aggiungi_nodo" id="aggiungi_nodo_4" style="display:none;">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+            100%
+          </div>
+        </div>
+        <div id="box_6" class="contorno_esterno">
+          <h4 class="titolo_box">Inserimento nodo completato!</h4>
+          <p class="chiudi_insert">x</p>          
+        </div>  <!--fine box-->
+<!--      </div>
+
+      <div id="box_7" class="box">
+        <h1 class="titolo_box">Aggiunta di archi</h1>
+                <p class="testo-box">Regole per l'aggiunta di archi per un nuovo nodo:</p>
+                        <p class="testo-box">Per far si che il nuovo nodo sia connesso a quelli già presenti, descrivere questi come nome, id e peso, separati da ";". Separare più nodi con il carattere "/" e terminare con "!". </br>
+                        Per esempio: nome;id;peso/nome;id;peso/nome;id;peso!</p>
+                        <hr />
+                <p class="chiudi">x</p>
+        </div> 
+-->
+
+        <!-- box info nodo e relazione -->
+
+      <div id="propr_nodo_1" class="info_nodo" style="display:none">
+      <h4>Informazioni nodo:</h4>
+        <h5>  Nome: <label id="name_label_nodo"></label></h5>
+        <h5>    Id: <label id="id_label_nodo"></label></h5>
+        <h5>Labels: <label id="label_label_nodo"></label></h5>
+        <h5>Specie: <label id="specie_label_nodo"></label></h5>
+        <h5>Accession: <label id="accession_label_nodo"></label></h5>
+        <h5>Mirbase_link: <label id="m_base_label_nodo"></label></h5>
+        <p class="chiudi_insert">x</p>
+      </div>
+
+      <div id="propr_nodo_2" class="info_nodo" style="display:none">
+      <h4>Informazioni nodo:</h4>
+        <h5>  Nome: <label id="name_label_nodo_2"></label></h5>
+        <h5>    Id: <label id="id_label_nodo_2"></label></h5>
+        <h5>Labels: <label id="label_label_nodo_2"></label></h5>
+        <h5>Specie: <label id="specie_label_nodo_2"></label></h5>
+        <h5>Ncbi_link: <label id="ncbi_label_nodo_2"></label></h5>
+        <h5>Ens_code: <label id="ens_label_nodo_2"></label></h5>
+        <h5>Gene id: <label id="gene_label_nodo_2"></label></h5>
+        <p class="chiudi_insert">x</p>
+      </div>
+
+      <div id="propr_rel" class="info_nodo" style="display:none">
+      <h4>Informazioni arco:</h4>
+        <h5>  Nome: <label id="name_label_rel"></label></h5>
+        <h5>    Id: <label id="id_label_rel"></label></h5>
+        <h5> Score: <label id="score_label_rel"></label></h5>
+        <h5>Source Target: <label id="s_target_label_rel"></label></h5>
+        <h5>Source microRna: <label id="s_micro_label_rel"></label></h5>
+        <h5>Type: <label id="type_label_rel"></label></h5>
+        <p class="chiudi_insert">x</p>
+      </div>
+
+
+    <!-- box salvataggio img con nome qui definito -->
+
+      <div id="box_8" class="box" style="display: none">
+        <h1 class="titolo_box">Salva immagine:</h1>
+              <div class="form-group">
+                <label for="nome_immagine">Nome:</label>
+                <input type="text" id="nome_immagine" placeholder="image" value="image"/>
+              </div>
+              <hr />
+              <p class="chiudi">x</p>
+              <button class="btn btn-default button" id="save_button">Fine</button>
+
+        </div> 
+      
+
+
+    </div>
+
+
+
+
+
+
+
+<script type="text/javascript">
+  //overlay - regole insert query
+   $(".apri").click(function(){
+    $('#overlay').fadeIn('fast');
+    $('#box').fadeIn('slow'); 
+  });
+
+$(".chiudi").click(function(){
+    $('#overlay').fadeOut('fast');
+    $('#box').hide();
+  });
+
+$("#overlay").click(function(){
+    $(this).fadeOut('fast');
+    $('#box').hide();
+  });   
+
+</script>
+
+
+
+<!--
+<script type="text/javascript">
+//step aggiungi nodo
+
+$(document).on('click', '#button_add_node', function(){
+      $('#aggiungi_nodo_1').fadeIn('slow'); 
+    });
+
+$(document).on('click', '.chiudi_insert', function(){
+      $('.aggiungi_nodo').hide();
+    }); 
+
+$(document).on('click', '#avanti_button', function(){
+      $('#aggiungi_nodo_1').hide();
+      $('#aggiungi_nodo_2').fadeIn('slow'); 
+    })
+
+$(document).on('click', '#avanti_button_2', function(){
+      $('#aggiungi_nodo_2').hide();
+      $('#aggiungi_nodo_3').fadeIn('slow'); 
+    })
+
+$(document).on('click', '#end_button', function(){
+      $('#aggiungi_nodo_3').hide();
+      $('#aggiungi_nodo_4').fadeIn('slow'); 
+
+      var nome = document.getElementById('node_name').value;
+      var score = document.getElementById('node_score').value;
+      var id = document.getElementById('node_id').value;
+      var pos_x = document.getElementById('node_x').value;
+      var pos_y = document.getElementById('node_y').value;
+      var vicini = document.getElementById('node_vicini').value;
+
+      var cy = $('#cy').cytoscape('get');
+
+      var id_int = parseInt(id);
+      var pos_x_int = parseInt(pos_x);
+      var pos_y_int = parseInt(pos_y);
+
+      cy.add({  "data": {
+                "id": id,
+                "idInt": id_int,
+                "name": nome,
+                "score": score,
+                "query": true,
+                "gene": true
+              },
+              "position": {
+                "x": pos_x_int,
+                "y": pos_y_int
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbed": false,
+              "grabbable": true,
+              "classes": "fn10273 fn6944 fn9471 fn10569 fn8023 fn6956 fn6935 fn8147 fn6939 fn6936 fn6629 fn7928 fn6947 fn8612 fn6957 fn8786 fn6246 fn9367 fn6945 fn6946 fn10024 fn10022 fn6811 fn9361 fn6279 fn6278 fn8569 fn7641 fn8568 fn6943"
+            }               
+          );
+
+
+      //aggiunta archi
+      stringa1 = vicini.split("!");
+      stringa2 = stringa1[0].split("/");
+      
+      stringa2.forEach(function(elem){
+        array_vicini = elem.split(";");
+
+          var nodo_x = cy.filter('node[name="'+array_vicini[0]+'"]').id();
+    
+          cy.add( {
+                  "data": {
+                    "source": id,
+                    "target": nodo_x,
+                    "weight": array_vicini[2],
+                    "group": "coexp",
+                    "networkId": 1205,
+                    "networkGroupId": 18,
+                    "intn": true,
+                    "rIntnId": 43,
+                    "id": array_vicini[1]
+                  },
+                  "position": {},
+                  "group": "edges",
+                  "removed": false,
+                  "selected": false,
+                  "selectable": true,
+                  "locked": false,
+                  "grabbed": false,
+                  "grabbable": true,
+                  "classes": ""
+                }
+            );
+        });
+    
+   
+
+      //chiamata ajax per l'invio del nuovo grafo
+      var json_graph_2=JSON.stringify(cy.json());
+        cy.json({
+          zoom: 1
+        });
+
+        $.ajax({
+        type: 'post',
+        url: "BioinfoApp/add_nodo",
+        data: {grafo_2: json_graph_2,
+              csrfmiddlewaretoken: '{{ csrf_token }}',
+              },
+        success: function (response) {
+            alert('Nodo aggiunto correttamente!');
+        },
+        error:function (xhr, textStatus, thrownError){alert('Si è verificato un errore nell aggiungere il nodo!')}
+
+    });
+      return false;
+      $('#aggiungi_nodo_4').delay(5000).fadeOut('slow');
+      setTimeout("location.href = 'show_graph.html'",5000); // milliseconds, so 10 seconds = 10000ms
+
+   });
+
+//box info per l'aggiunta di archi
+$(document).on('click', '#my_span_2', function(){
+      $('#overlay').fadeIn('fast');
+      $('#box_7').fadeIn('slow'); 
+    })
+$(".chiudi").click(function(){
+    $('#overlay').fadeOut('fast');
+    $('#box_7').hide();
+  });
+$("#overlay").click(function(){
+    $(this).fadeOut('fast');
+    $('#box_7').hide();
+  });
+ 
+</script>
+
+-->
+
+
+
+
+{% endblock %}
+
+

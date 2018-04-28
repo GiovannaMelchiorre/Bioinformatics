@@ -1,0 +1,442 @@
+
+body { 
+  font: 14px helvetica neue, helvetica, arial, sans-serif;
+ 
+}
+
+.header_base{
+  background-image: url("../copertina.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 130px;
+  margin-top: -20px;
+  padding-top: 40px;
+}
+ .header_base h1 {
+  font:normal 40px Arial;
+  color:#FFFFFF;
+  font-weight: bold;
+  margin: 10px;
+  text-shadow: 0 1px 0 #CCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb,0 4px 0 #b9b9b9, 0 5px 0 #aaa,0 6px 1px rgba(0,0,0,.1),  0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3),  0 3px 5px rgba(0,0,0,.2),  0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  padding-left: 30px;
+}
+
+/* LOAD_FILE.HTML  */
+
+.sfondo_load_file{
+  background-color: #B2B2B2;
+  opacity:0.5;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#box_open{ 
+  width:300px; 
+  height:300px; 
+  
+  background-color:#FFF; 
+  display:none; 
+  z-index:+300; 
+  position:absolute; 
+  left:30%; 
+  top:20%; 
+  -moz-border-radius: 15px;  
+  -webkit-border-radius: 15px;
+  border-radius: 15px; 
+  padding:20px;
+}
+
+.checkbox_type{
+  width:100%; 
+  height:auto;
+  min-height: 70px;  
+  background-color:#333333; 
+  position:relative;  
+  -moz-border-radius: 10px;  
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+ 
+} 
+
+.checkbox_type h4{
+  color:#B2B2B2;
+}
+.checkbox_type label{
+  color: #B2B2B2;
+}
+
+.contorno_check{
+  padding:10px;
+  border-radius: 5px;
+  border: #646464 1px solid;
+  float: right;
+  width: 85%;
+}
+
+.testo_check{
+  float: left;
+  width: 15%;
+}
+.select_div{
+  margin:10px;
+}
+#cy{
+  height: 100%;
+  width: 100%;
+  min-width: 800px;
+  min-height: 580px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #B2B2B2;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
+
+/* remove outer padding */
+.main .row{
+  padding: 0px;
+  margin: 0px;
+  width: 700px;
+  height: 700px;
+  border-color: blue solid 3px;
+}
+
+
+.menu label{
+    color: #B2B2B2;
+}
+.menu h5{
+    color: #B2B2B2;
+    margin-left: 10px;
+}
+.menu h4{
+    color: #B2B2B2;
+    margin-left: 10px;
+}
+a:link, a:visited {
+    color: #B2B2B2;
+    background-color: transparent;
+}
+a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+span{
+  font-size:16px;
+  margin-right: 10px;
+}
+
+#my_span{
+  cursor: pointer; 
+}
+
+
+.contorno{
+  padding:10px;
+  border-radius: 5px;
+  border: #646464 1px solid;
+}
+.contorno_esterno{
+  padding:10px;
+  margin:5px;
+  border-radius: 5px;
+  border: #646464 1px solid;
+}
+
+.contorno input{
+  width: 100%;
+}
+.contorno_esterno input{
+  width: 100%;
+}
+
+.linea{
+  align-self: left;
+  size: 1px;
+  width: 100%;
+  color: #646464 noshade;
+}
+ .button{
+  position: relative;
+  float: right;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+.manage_graph{
+  z-index: 60;
+  position: relative;
+  float: right;
+  margin-right: 20px;
+
+  margin-top: -100px;
+  width: 80px;
+  /*border-color: blue 3px solid; */
+}
+
+span.glyphicon-plus-sign, .glyphicon-remove-sign{
+    font-size: 35px;
+}
+
+/*Remove rounded coners*/
+
+nav.sidebar.navbar {
+  border-radius: 0px;
+}
+
+nav.sidebar, .main{
+  -webkit-transition: margin 200ms ease-out;
+    -moz-transition: margin 200ms ease-out;
+    -o-transition: margin 200ms ease-out;
+    transition: margin 200ms ease-out;
+}
+
+
+/* Add gap to nav and right windows.*/
+.main{
+  padding: 10px 10px 0 10px;
+}
+
+.chiudi{ font-size:18px; color:#000; font-weight:bold; position:absolute; right:2%; top:0%;  cursor:pointer;}
+.overlay{
+    background:#000;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:100;
+    cursor:pointer;
+    /*Trasperenza cross browser*/
+    opacity: .7; filter: alpha(opacity=70);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";   
+     
+}
+ 
+.box{ width:auto; 
+      height:auto; 
+      max-width:500px;
+      background-color:#FFF; 
+      display:none; 
+      z-index:+300; 
+      position:absolute; 
+      left:30%; 
+      top:20%; 
+      -moz-border-radius: 15px;  
+      -webkit-border-radius: 15px;
+      border-radius: 15px; 
+      padding:20px;
+}
+
+.aggiungi_nodo{
+  width: 350px;
+  height: auto;
+  position: relative;
+  float: right;
+  margin:20px;
+  padding: 20px;
+  background-color: #303030;
+  border-color: #323232 4px solid;
+  border-radius: 20px;
+  margin-top: -550px;
+  z-index: 30;
+  opacity: .90;
+}
+.aggiungi_nodo label{
+    color: #B2B2B2;
+}
+.aggiungi_nodo h4{
+    color: #B2B2B2;
+}
+
+.info_nodo{
+  width: auto;
+  min-width: 300px;
+  height: auto;
+  min-height: : 300px;
+  position: relative;
+  float: left;
+  padding: 10px;
+  background-color: #303030;
+  border-color: #323232 4px solid;
+  border-radius: 20px;
+  margin-top: -550px;
+  margin-left: 20px;
+  z-index: 30;
+  opacity: .90;
+}
+.info_nodo label{
+    color: #B2B2B2;
+}
+.info_nodo h4{
+    color: #B2B2B2;
+}
+.info_nodo h5{
+    color: #B2B2B2;
+}
+
+
+/* .....NavBar: Icon only with coloring/layout.....*/
+
+/*small/medium side display*/
+@media (min-width: 768px) {
+
+  /*Allow main to be next to Nav*/
+  .main{
+    position: absolute;
+    width: calc(100% - 40px); /*keeps 100% minus nav size*/
+    margin-left: 40px;
+    float: right;
+  }
+
+  /*lets nav bar to be showed on mouseover*/
+  nav.sidebar:hover + .main{
+    margin-left: 200px;
+  }
+
+  /*Center Brand*/
+  nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+  }
+  /*Center Brand*/
+  nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  /*Center Icons*/
+  nav.sidebar a{
+    padding-right: 13px;
+  }
+
+  /*adds border top to first nav box */
+  nav.sidebar .navbar-nav > li:first-child{
+    border-top: 1px #e5e5e5 solid;
+  }
+
+  /*adds border to bottom nav boxes*/
+  nav.sidebar .navbar-nav > li{
+    border-bottom: 1px #e5e5e5 solid;
+  }
+
+  /* Colors/style dropdown box*/
+  nav.sidebar .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  /*allows nav box to use 100% width*/
+  nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+    padding: 0 0px 0 0px;
+  }
+
+  /*colors dropdown box text */
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+  }
+
+  /*gives sidebar width/height*/
+  nav.sidebar{
+    width: 200px;
+    height: 100%;
+    margin-left: -160px;
+    float: left;
+    z-index: 8000;
+    margin-bottom: 0px;
+  }
+
+  /*give sidebar 100% width;*/
+  nav.sidebar li {
+    width: 100%;
+  }
+
+  /* Move nav to full on mouse over*/
+  nav.sidebar:hover{
+    margin-left: 0px;
+  }
+  /*for hiden things when navbar hidden*/
+  .forAnimate{
+    opacity: 0;
+  }
+  .menu label{
+    color: #B2B2B2;
+}
+.chiudi_insert{ 
+  font-size:18px; 
+  color:#B2B2B2; 
+  font-weight:bold; 
+  position:absolute; 
+  right:2%; 
+  top:0%;  
+  cursor:pointer;
+}
+
+
+/* .....NavBar: Fully showing nav bar..... */
+
+@media (min-width: 890px) {
+
+  /*Allow main to be next to Nav*/
+  .main{
+    width: calc(100% - 200px); /*keeps 100% minus nav size*/
+    margin-left: 200px;
+  }
+
+  /*Show all nav*/
+  nav.sidebar{
+    margin-left: 0px;
+    float: left;
+  }
+  /*Show hidden items on nav*/
+  nav.sidebar .forAnimate{
+    opacity: 1;
+  }
+}
+
+nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+  color: #CCC;
+  background-color: transparent;
+}
+
+nav:hover .forAnimate{
+  opacity: 1;
+}
+section{
+  padding-left: 15px;
+}
+
+
+
+
+
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+label {
+  display: inline-block;
+  width: 5em;
+}
+
+
+

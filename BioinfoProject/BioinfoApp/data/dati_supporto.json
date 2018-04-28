@@ -1,0 +1,2756 @@
+{
+ "nodes": [
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UTY", 
+    "ncbi_link": "22290", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000068457", 
+    "species": "Mus musculus", 
+    "id": "35463", 
+    "geneid": "22290"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UTY", 
+    "ncbi_link": "22290", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000068457", 
+    "species": "Mus musculus", 
+    "id": "35463", 
+    "geneid": "22290"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UTY", 
+    "ncbi_link": "22290", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000068457", 
+    "species": "Mus musculus", 
+    "id": "35463", 
+    "geneid": "22290"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UTY", 
+    "ncbi_link": "22290", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000068457", 
+    "species": "Mus musculus", 
+    "id": "35463", 
+    "geneid": "22290"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UTY", 
+    "ncbi_link": "22290", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000068457", 
+    "species": "Mus musculus", 
+    "id": "35463", 
+    "geneid": "22290"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UTY", 
+    "ncbi_link": "22290", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000068457", 
+    "species": "Mus musculus", 
+    "id": "35463", 
+    "geneid": "22290"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY2", 
+    "ncbi_link": "22768", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000000103", 
+    "species": "Mus musculus", 
+    "id": "39714", 
+    "geneid": "22768"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY2", 
+    "ncbi_link": "22768", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000000103", 
+    "species": "Mus musculus", 
+    "id": "39714", 
+    "geneid": "22768"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY2", 
+    "ncbi_link": "22768", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000000103", 
+    "species": "Mus musculus", 
+    "id": "39714", 
+    "geneid": "22768"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY2", 
+    "ncbi_link": "22768", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000000103", 
+    "species": "Mus musculus", 
+    "id": "39714", 
+    "geneid": "22768"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY2", 
+    "ncbi_link": "22768", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000000103", 
+    "species": "Mus musculus", 
+    "id": "39714", 
+    "geneid": "22768"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY2", 
+    "ncbi_link": "22768", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000000103", 
+    "species": "Mus musculus", 
+    "id": "39714", 
+    "geneid": "22768"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY2", 
+    "ncbi_link": "22768", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000000103", 
+    "species": "Mus musculus", 
+    "id": "39714", 
+    "geneid": "22768"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY2", 
+    "ncbi_link": "22768", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000000103", 
+    "species": "Mus musculus", 
+    "id": "39714", 
+    "geneid": "22768"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY2", 
+    "ncbi_link": "22768", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000000103", 
+    "species": "Mus musculus", 
+    "id": "39714", 
+    "geneid": "22768"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY2", 
+    "ncbi_link": "22768", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000000103", 
+    "species": "Mus musculus", 
+    "id": "39714", 
+    "geneid": "22768"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY1", 
+    "ncbi_link": "22767", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000053211", 
+    "species": "Mus musculus", 
+    "id": "41843", 
+    "geneid": "22767"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY1", 
+    "ncbi_link": "22767", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000053211", 
+    "species": "Mus musculus", 
+    "id": "41843", 
+    "geneid": "22767"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY1", 
+    "ncbi_link": "22767", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000053211", 
+    "species": "Mus musculus", 
+    "id": "41843", 
+    "geneid": "22767"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UTY", 
+    "ncbi_link": "22290", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000068457", 
+    "species": "Mus musculus", 
+    "id": "35463", 
+    "geneid": "22290"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UTY", 
+    "ncbi_link": "22290", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000068457", 
+    "species": "Mus musculus", 
+    "id": "35463", 
+    "geneid": "22290"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UTY", 
+    "ncbi_link": "22290", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000068457", 
+    "species": "Mus musculus", 
+    "id": "35463", 
+    "geneid": "22290"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UTY", 
+    "ncbi_link": "22290", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000068457", 
+    "species": "Mus musculus", 
+    "id": "35463", 
+    "geneid": "22290"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UTY", 
+    "ncbi_link": "22290", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000068457", 
+    "species": "Mus musculus", 
+    "id": "35463", 
+    "geneid": "22290"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UTY", 
+    "ncbi_link": "22290", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000068457", 
+    "species": "Mus musculus", 
+    "id": "35463", 
+    "geneid": "22290"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY1", 
+    "ncbi_link": "22767", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000053211", 
+    "species": "Mus musculus", 
+    "id": "41843", 
+    "geneid": "22767"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY1", 
+    "ncbi_link": "22767", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000053211", 
+    "species": "Mus musculus", 
+    "id": "41843", 
+    "geneid": "22767"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ZFY1", 
+    "ncbi_link": "22767", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000053211", 
+    "species": "Mus musculus", 
+    "id": "41843", 
+    "geneid": "22767"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "KDM5D", 
+    "ncbi_link": "20592", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000056673", 
+    "species": "Mus musculus", 
+    "id": "27198", 
+    "geneid": "20592"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "DDX3Y", 
+    "ncbi_link": "26900", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000069045", 
+    "species": "Mus musculus", 
+    "id": "36808", 
+    "geneid": "26900"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "DDX3Y", 
+    "ncbi_link": "26900", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000069045", 
+    "species": "Mus musculus", 
+    "id": "36808", 
+    "geneid": "26900"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "KDM5D", 
+    "ncbi_link": "20592", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000056673", 
+    "species": "Mus musculus", 
+    "id": "27198", 
+    "geneid": "20592"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UBA1Y", 
+    "ncbi_link": "22202", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000069053", 
+    "species": "Mus musculus", 
+    "id": "34953", 
+    "geneid": "22202"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UBA1Y", 
+    "ncbi_link": "22202", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000069053", 
+    "species": "Mus musculus", 
+    "id": "34953", 
+    "geneid": "22202"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UBA1Y", 
+    "ncbi_link": "22202", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000069053", 
+    "species": "Mus musculus", 
+    "id": "34953", 
+    "geneid": "22202"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UBA1Y", 
+    "ncbi_link": "22202", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000069053", 
+    "species": "Mus musculus", 
+    "id": "34953", 
+    "geneid": "22202"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UBA1Y", 
+    "ncbi_link": "22202", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000069053", 
+    "species": "Mus musculus", 
+    "id": "34953", 
+    "geneid": "22202"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "KDM5D", 
+    "ncbi_link": "20592", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000056673", 
+    "species": "Mus musculus", 
+    "id": "27198", 
+    "geneid": "20592"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "ARMCX4", 
+    "ncbi_link": "100503043", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000049804", 
+    "species": "Mus musculus", 
+    "id": "42730", 
+    "geneid": "100503043"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "MOES", 
+    "ncbi_link": "17698", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000031207", 
+    "species": "Mus musculus", 
+    "id": "32466", 
+    "geneid": "17698"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UBP27", 
+    "ncbi_link": "54651", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000046269", 
+    "species": "Mus musculus", 
+    "id": "37078", 
+    "geneid": "54651"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UBP27", 
+    "ncbi_link": "54651", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000046269", 
+    "species": "Mus musculus", 
+    "id": "37078", 
+    "geneid": "54651"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "UBP27", 
+    "ncbi_link": "54651", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000046269", 
+    "species": "Mus musculus", 
+    "id": "37078", 
+    "geneid": "54651"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "PQBP1", 
+    "ncbi_link": "54633", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000031157", 
+    "species": "Mus musculus", 
+    "id": "32747", 
+    "geneid": "54633"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "DIA1R", 
+    "ncbi_link": "75905", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000037358", 
+    "species": "Mus musculus", 
+    "id": "34817", 
+    "geneid": "75905"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "DIA1R", 
+    "ncbi_link": "75905", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000037358", 
+    "species": "Mus musculus", 
+    "id": "34817", 
+    "geneid": "75905"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "DIA1R", 
+    "ncbi_link": "75905", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000037358", 
+    "species": "Mus musculus", 
+    "id": "34817", 
+    "geneid": "75905"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "CH1B2", 
+    "ncbi_link": "67028", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000031242", 
+    "species": "Mus musculus", 
+    "id": "41852", 
+    "geneid": "67028"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "CH1B2", 
+    "ncbi_link": "67028", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000031242", 
+    "species": "Mus musculus", 
+    "id": "41852", 
+    "geneid": "67028"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }, 
+  {
+   "data": {
+    "name": "CACNA1F", 
+    "ncbi_link": "54652", 
+    "labels": "Target", 
+    "ens_code": "ENSMUSG00000031142", 
+    "species": "Mus musculus", 
+    "id": "42770", 
+    "geneid": "54652"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-23b-3p", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0000125", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0000125", 
+    "id": "22596"
+   }
+  }, 
+  {
+   "data": {
+    "name": "mmu-miR-466f", 
+    "labels": "microRNA", 
+    "accession": "MIMAT0005844", 
+    "species": "Mus musculus", 
+    "mirbase_link": "MIMAT0005844", 
+    "id": "23823"
+   }
+  }
+ ], 
+ "edges": [
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.80", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541777", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-15.70", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899576", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-12.80", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899575", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.80", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541777", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-17.60", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899574", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.80", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541777", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-13.40", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899569", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.80", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541777", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.80", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541777", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-12.50", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899565", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.80", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541777", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-20.50", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899563", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.20", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541776", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-13.20", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899578", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.20", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541776", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-18.00", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899577", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-15.40", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899573", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.20", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541776", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-12.30", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899572", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.20", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541776", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.20", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541776", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-16.50", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899567", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-13.20", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899578", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-13.30", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541775", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-13.30", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541775", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-18.00", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899577", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-15.40", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899573", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-13.30", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541775", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-12.30", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899572", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-13.30", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541775", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-13.30", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541775", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-16.50", 
+    "target": "39714", 
+    "source_target": "ENSMUSG00000000103", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899567", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-18.00", 
+    "target": "41843", 
+    "source_target": "ENSMUSG00000053211", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899571", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.20", 
+    "target": "41843", 
+    "source_target": "ENSMUSG00000053211", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541774", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.20", 
+    "target": "41843", 
+    "source_target": "ENSMUSG00000053211", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541774", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-12.30", 
+    "target": "41843", 
+    "source_target": "ENSMUSG00000053211", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899566", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.20", 
+    "target": "41843", 
+    "source_target": "ENSMUSG00000053211", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541774", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-16.50", 
+    "target": "41843", 
+    "source_target": "ENSMUSG00000053211", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899564", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-15.70", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899576", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-14.80", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541773", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-12.80", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899575", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-14.80", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541773", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-17.60", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899574", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-14.80", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541773", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-13.40", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899569", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-14.80", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541773", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-14.80", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541773", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-12.50", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899565", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-20.50", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899563", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-14.80", 
+    "target": "35463", 
+    "source_target": "ENSMUSG00000068457", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541773", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-18.00", 
+    "target": "41843", 
+    "source_target": "ENSMUSG00000053211", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899571", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-13.30", 
+    "target": "41843", 
+    "source_target": "ENSMUSG00000053211", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541772", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-13.30", 
+    "target": "41843", 
+    "source_target": "ENSMUSG00000053211", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541772", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-12.30", 
+    "target": "41843", 
+    "source_target": "ENSMUSG00000053211", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899566", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-13.30", 
+    "target": "41843", 
+    "source_target": "ENSMUSG00000053211", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541772", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-16.50", 
+    "target": "41843", 
+    "source_target": "ENSMUSG00000053211", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899564", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-12.70", 
+    "target": "27198", 
+    "source_target": "ENSMUSG00000056673", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899557", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-22.00", 
+    "target": "27198", 
+    "source_target": "ENSMUSG00000056673", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541771", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-17.20", 
+    "target": "36808", 
+    "source_target": "ENSMUSG00000069045", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899570", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-15.20", 
+    "target": "36808", 
+    "source_target": "ENSMUSG00000069045", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541770", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-14.00", 
+    "target": "36808", 
+    "source_target": "ENSMUSG00000069045", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899568", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-15.20", 
+    "target": "36808", 
+    "source_target": "ENSMUSG00000069045", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541770", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-12.70", 
+    "target": "27198", 
+    "source_target": "ENSMUSG00000056673", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899557", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-13.80", 
+    "target": "27198", 
+    "source_target": "ENSMUSG00000056673", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541769", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-12.40", 
+    "target": "34953", 
+    "source_target": "ENSMUSG00000069053", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899561", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-16.00", 
+    "target": "34953", 
+    "source_target": "ENSMUSG00000069053", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541768", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-13.70", 
+    "target": "34953", 
+    "source_target": "ENSMUSG00000069053", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899560", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-16.00", 
+    "target": "34953", 
+    "source_target": "ENSMUSG00000069053", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541768", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-15.90", 
+    "target": "34953", 
+    "source_target": "ENSMUSG00000069053", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899559", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-16.00", 
+    "target": "34953", 
+    "source_target": "ENSMUSG00000069053", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541768", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-12.90", 
+    "target": "34953", 
+    "source_target": "ENSMUSG00000069053", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899558", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-16.00", 
+    "target": "34953", 
+    "source_target": "ENSMUSG00000069053", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541768", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-19.00", 
+    "target": "34953", 
+    "source_target": "ENSMUSG00000069053", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899556", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-16.00", 
+    "target": "34953", 
+    "source_target": "ENSMUSG00000069053", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541768", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-13.20", 
+    "target": "27198", 
+    "source_target": "ENSMUSG00000056673", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541767", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-12.70", 
+    "target": "27198", 
+    "source_target": "ENSMUSG00000056673", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899557", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-13.60", 
+    "target": "42730", 
+    "source_target": "ENSMUSG00000049804", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541766", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-14.20", 
+    "target": "42730", 
+    "source_target": "ENSMUSG00000049804", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899550", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.90", 
+    "target": "32466", 
+    "source_target": "ENSMUSG00000031207", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541765", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-12.40", 
+    "target": "32466", 
+    "source_target": "ENSMUSG00000031207", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899544", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.60", 
+    "target": "37078", 
+    "source_target": "ENSMUSG00000046269", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541764", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-15.10", 
+    "target": "37078", 
+    "source_target": "ENSMUSG00000046269", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899548", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.60", 
+    "target": "37078", 
+    "source_target": "ENSMUSG00000046269", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541764", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-13.50", 
+    "target": "37078", 
+    "source_target": "ENSMUSG00000046269", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899547", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.60", 
+    "target": "37078", 
+    "source_target": "ENSMUSG00000046269", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541764", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-13.70", 
+    "target": "37078", 
+    "source_target": "ENSMUSG00000046269", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899546", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-13.20", 
+    "target": "32747", 
+    "source_target": "ENSMUSG00000031157", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541762", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-15.30", 
+    "target": "32747", 
+    "source_target": "ENSMUSG00000031157", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15898510", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-14.80", 
+    "target": "34817", 
+    "source_target": "ENSMUSG00000037358", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899541", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-16.20", 
+    "target": "34817", 
+    "source_target": "ENSMUSG00000037358", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541760", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-16.10", 
+    "target": "34817", 
+    "source_target": "ENSMUSG00000037358", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899537", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-16.20", 
+    "target": "34817", 
+    "source_target": "ENSMUSG00000037358", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541760", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-14.50", 
+    "target": "34817", 
+    "source_target": "ENSMUSG00000037358", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899536", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-16.20", 
+    "target": "34817", 
+    "source_target": "ENSMUSG00000037358", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541760", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-16.30", 
+    "target": "41852", 
+    "source_target": "ENSMUSG00000031242", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899540", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.20", 
+    "target": "41852", 
+    "source_target": "ENSMUSG00000031242", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541759", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-12.20", 
+    "target": "41852", 
+    "source_target": "ENSMUSG00000031242", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541759", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-13.30", 
+    "target": "41852", 
+    "source_target": "ENSMUSG00000031242", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899535", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "23823", 
+    "score": "-13.10", 
+    "target": "42770", 
+    "source_target": "ENSMUSG00000031142", 
+    "source_microrna": "mmu_miR_466f", 
+    "type": "RNA22", 
+    "id": "15899526", 
+    "name": "RNA22v2"
+   }
+  }, 
+  {
+   "data": {
+    "source": "22596", 
+    "score": "-15.20", 
+    "target": "42770", 
+    "source_target": "ENSMUSG00000031142", 
+    "source_microrna": "mmu_miR_23b_3p", 
+    "type": "RNA22", 
+    "id": "44541758", 
+    "name": "RNA22v2"
+   }
+  }
+ ]
+}
